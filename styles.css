@@ -1,0 +1,74 @@
+body {
+	margin: 0;
+}, div.lettuce
+* {
+	vertical-align: top;
+}
+
+.container {
+	width: 940px;
+	margin: 125px auto;
+	position: relative;
+}
+
+.sandwich {
+	width: 375px;
+	position: relative;
+	top: -75px;
+	display: inline-block;
+}
+
+.bread-top-slice, 
+.bread-bottom-slice, 
+div.cheese, 
+div.meat, 
+div.lettuce,
+div.tomato,
+div.mustard-mayonnaise {
+	height: 66px;
+	width: 375px;
+	margin-left: 200px;
+	border-radius: 57px 57px 0 0;
+	display: inline-block;
+}
+
+.bread-bottom-slice {
+	margin-bottom: 0;
+	-webkit-transform: rotateX(180deg);
+
+}
+
+div.options {
+	width: 40px;
+	display: inline-block;
+}
+
+span {
+	display: inline-block;
+	margin: 10px 0;
+}
+
+div.cheese {
+	height: 20px;
+	border-radius: 10px;
+}
+
+div.meat {
+	height: 30px;
+	border-radius: 5px;
+}
+
+div.lettuce {
+	height: 15px;
+	border-radius: 5px;
+}
+
+div.tomato {
+	height: 12px;
+	border-radius: 5px;
+}
+
+div.mustard-mayonnaise {
+	height: 12px;
+	border-radius: 5px;
+}
